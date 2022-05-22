@@ -6,7 +6,10 @@ import {BiSearchAlt2, BiShoppingBag} from 'react-icons/bi';
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
-  width: 100%;
+  max-width: 80%;
+  
+  margin:auto;
+  
   
   justify-content: space-between;
   top:0;
@@ -14,14 +17,10 @@ export const Container = styled.div`
   right:0;
   bottom:0;  
   
-  
-  
   span{
-    
     front-size:70px;
   }
   
- 
 `;
 
 
@@ -34,20 +33,24 @@ export const Logo = styled(SiSamsung)`
     flex-shrink: 0;
 
 `;
+
 export const Pesquisa = styled(BiSearchAlt2)`
     fill: var(--logo);
     width: 28px;
     height: 32px;
     flex-shrink: 0;
+    cursor: pointer;
 
 `;
+
 export const Compras = styled(BiShoppingBag)`
     fill: var(--logo);
     width: 28px;
     height: 32px;
     flex-shrink: 0;
-
+    cursor: pointer;
 `;
+
 export const Button = styled.button`
     display: block;
     font-size: medium;
@@ -62,7 +65,7 @@ export const Button = styled.button`
     color:gray;
     border: none;
 
-    cursor: pointer;
+    
     
     background-color: white;
     color:black;
