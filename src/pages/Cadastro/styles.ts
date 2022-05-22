@@ -28,6 +28,7 @@ export const Form2 = styled.form`
 `;
 
 export const Button = styled.button`
+    
     display: block;
     
     margin-left: 100px;

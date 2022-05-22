@@ -1,10 +1,13 @@
 import styled from 'styled-components';
-import { FaGlobeAmericas } from 'react-icons/fa';
+import { SiSamsung } from 'react-icons/si';
 import {BiSearchAlt2, BiShoppingBag} from 'react-icons/bi';
 
 
 export const Container = styled.div`
   display: flex;
+  flex-direction: row;
+  width: 100%;
+  
   justify-content: space-between;
   top:0;
   left:0;
@@ -12,26 +15,22 @@ export const Container = styled.div`
   bottom:0;  
   
   
+  
   span{
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 50px;
+    
     front-size:70px;
   }
-  h1{
-    font-size: medium;
-  }
+  
  
 `;
 
 
-export const Logo = styled(FaGlobeAmericas)`
+export const Logo = styled(SiSamsung)`
     
-    margin-top: -20px;
-    fill: var(--logo);
+    margin-top: -30px;
+    color: blue;
     width: 100px;
-    height: 30px;
+    height: 100px;
     flex-shrink: 0;
 
 `;
